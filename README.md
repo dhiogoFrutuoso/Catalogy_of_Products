@@ -49,29 +49,34 @@ Catalogy_of_Products/
 ├── package.json        # Project metadata and dependencies
 ├── package-lock.json   # Dependency lock file
 └── .package-lock.json  # Extra lock file (can be ignored)
+
 Getting Started
 Prerequisites
-Node.js (version 14 or higher recommended)
 
-npm (comes with Node.js)
+Node.js
+ (version 14 or higher recommended)
+
+npm
+ (comes with Node.js)
 
 Installation
+
 Clone the repository and install dependencies:
 
-bash
-Copy code
 git clone https://github.com/dhiogoFrutuoso/Catalogy_of_Products.git
 cd Catalogy_of_Products
 npm install
+
 Running the Project
+
 Start the project with:
 
-bash
-Copy code
 node main/index.js
+
 This will run the catalog system, allowing you to create, list, and search products from the console.
 
 Contributing
+
 Contributions are welcome!
 
 Fork this repository
@@ -85,6 +90,7 @@ Push to the branch (git push origin feature/your-feature)
 Open a Pull Request
 
 Acknowledgments
+
 Built with Node.js
 
 Uses open-source libraries like chalk, picocolors, and sisteransi for terminal styling and interaction
